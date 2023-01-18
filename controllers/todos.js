@@ -8,7 +8,4 @@ const getTodos = (req, res) => {
     { id: 4, text: "Learn React.js" },
   ]);
 };
-
-
-
 module.exports = { getTodos };
