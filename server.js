@@ -10,3 +10,5 @@ app.listen(port, () => {
 app.on('error', (err) => {
     console.error(err);
 });
+
+module.exports = app;
